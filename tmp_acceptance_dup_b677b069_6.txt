@@ -1,0 +1,1 @@
+# acceptance test b677b069 (duplicate issue #6)
