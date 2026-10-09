@@ -1,5 +1,6 @@
+# Managed by tests/acceptance/conftest.py (_ensure_project_settings).
+# Pins the documented product default so acceptance runs are deterministic.
+# TestVeraLabelGating asserts that an unlabeled issue draws no bot activity;
+# that is only true while Vera is not opted in to adopting unlabeled issues.
+# See vera#5372.
 auto_manage_issues: false
-max_attempts: 3
-escalation_timeout_hours: 1
-max_job_lifetime_hours: 1
-nonexistent_key_for_test: true
